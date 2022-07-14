@@ -18,6 +18,4 @@ private:
 
     Shader          shader;
     Texture         texture;
-    unsigned int    frames = 1;
-    unsigned int    anim_speed = 0;
 };

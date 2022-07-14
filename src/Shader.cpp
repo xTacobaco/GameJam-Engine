@@ -8,7 +8,7 @@ Shader& Shader::Bind() {
 }
 
 void Shader::Compile(const char* vertexSource, const char* fragmentSource) {
-    unsigned int sVertex, sFragment, gShader;
+    unsigned int sVertex, sFragment;
 
     sVertex = glCreateShader(GL_VERTEX_SHADER);
     glShaderSource(sVertex, 1, &vertexSource, NULL);

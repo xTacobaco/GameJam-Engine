@@ -1,19 +1,15 @@
 #include "GameLoop.h"
 
-GameLoop::GameLoop(unsigned int width, unsigned int height) : Keys(), Width(width), Height(height) {
-
-}
-
 GameLoop::~GameLoop() {
 
 }
 
 void GameLoop::Init() {
-
+	ResourceManager::LoadShader("res/shaders/Basic.shader", "basicShader");
 }
 
 void GameLoop::Update(float deltatime) {
-
+	FrameCount++;
 }
 
 void GameLoop::Render() {

@@ -5,10 +5,11 @@
 
 class GameLoop {
 public:
+    unsigned long           FrameCount;
     bool                    Keys[1024];
     unsigned int            Width, Height;
     
-    GameLoop(unsigned int width, unsigned int height);
+    GameLoop(unsigned int width, unsigned int height) : Keys(), Width(width), Height(height) {}
     ~GameLoop();
   
     void Init();

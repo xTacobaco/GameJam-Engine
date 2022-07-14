@@ -460,6 +460,9 @@
     <ClInclude Include="vendor\stb_image\stb_image.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include=".gitignore" />
+    <None Include="LICENSE" />
+    <None Include="README.md" />
     <None Include="res\shaders\Basic.shader" />
     <None Include="vendor\GLFW\lib-vc2019\glfw3.dll" />
     <None Include="vendor\glm\detail\func_common.inl" />
