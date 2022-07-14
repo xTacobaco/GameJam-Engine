@@ -1,5 +1,7 @@
 #include "GameLoop.h"
 
+#include "ResourceManager.h"
+
 GameLoop::~GameLoop() {
 
 }
